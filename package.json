@@ -1,0 +1,36 @@
+{
+  "name": "karma-poc",
+  "version": "1.0.0",
+  "description": "a karma poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auniverseaway/karma-poc.git"
+  },
+  "author": "Chris Millar <chris@millr.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.37",
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/preset-react": "^7.0.0-beta.37",
+    "@babel/preset-stage-0": "^7.0.0-beta.37",
+    "@babel/register": "^7.0.0-beta.37",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "chai": "^4.1.2",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sauce-launcher": "^1.2.0",
+    "karma-webpack": "^2.0.9",
+    "mocha": "^4.0.1",
+    "webpack": "^3.10.0"
+  }
+}
